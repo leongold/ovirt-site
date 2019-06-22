@@ -58,7 +58,7 @@ gem 'chronic'
 # Bootstrap
 
 # Bootstrap, as SASS
-gem "bootstrap-sass"
+gem "bootstrap-sass", ">= 3.4.0"
 
 
 #####
