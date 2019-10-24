@@ -82,7 +82,7 @@ gem 'open-uri-cached'
 gem 'font-awesome-middleman'
 
 # RSS/Atom parsing
-gem "feedjira"
+gem "feedjira", ">= 2.1.2"
 
 gem 'rails-assets-bootstrap-sortable'
 
