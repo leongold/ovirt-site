@@ -34,7 +34,7 @@ gem "middleman-blog"
 gem "middleman-favicon-maker"
 
 # HTML & XML parsing smarts
-gem "nokogiri"
+gem "nokogiri", ">= 1.10.5"
 gem 'mini_portile'
 
 # Syntax highlighting
@@ -82,7 +82,7 @@ gem 'open-uri-cached'
 gem 'font-awesome-middleman'
 
 # RSS/Atom parsing
-gem "feedjira"
+gem "feedjira", ">= 2.1.2"
 
 gem 'rails-assets-bootstrap-sortable'
 
