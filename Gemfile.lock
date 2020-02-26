@@ -38,7 +38,7 @@ GEM
       sass (>= 3.3.0, < 3.5)
     compass-import-once (1.0.5)
       sass (>= 3.2, < 3.5)
-    crass (1.0.2)
+    crass (1.0.6)
     docile (1.1.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
@@ -46,16 +46,10 @@ GEM
     erubis (2.7.0)
     eventmachine (1.2.5)
     execjs (2.7.0)
-    faraday (0.13.1)
-      multipart-post (>= 1.2, < 3)
-    faraday_middleware (0.12.2)
-      faraday (>= 0.7.4, < 1.0)
     favicon_maker (1.3.1)
       docile (~> 1.1)
-    feedjira (2.1.2)
-      faraday (>= 0.9)
-      faraday_middleware (>= 0.9)
-      loofah (>= 2.0)
+    feedjira (3.1.1)
+      loofah (>= 2.3.1)
       sax-machine (>= 1.0)
     ffi (1.9.18)
     font-awesome-middleman (4.5.0)
@@ -81,7 +75,7 @@ GEM
       celluloid (~> 0.16.0)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
-    loofah (2.1.1)
+    loofah (2.4.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     middleman (3.3.12)
@@ -129,15 +123,11 @@ GEM
       middleman-core (>= 3.2)
       rouge (~> 2.0)
     mini_portile (0.6.2)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.4.0)
     minitest (5.10.3)
     multi_json (1.12.2)
-    multipart-post (2.0.0)
-    net-sftp (2.1.2)
-      net-ssh (>= 2.6.5)
-    net-ssh (4.2.0)
-    nokogiri (1.6.8.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.10.8)
+      mini_portile2 (~> 2.4.0)
     oj (3.3.9)
     open-uri-cached (0.0.5)
     padrino-helpers (0.12.8.1)
@@ -146,7 +136,6 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.8.1)
       activesupport (>= 3.1)
-    ptools (1.3.5)
     rack (1.6.8)
     rack-livereload (0.3.16)
       rack
@@ -209,7 +198,7 @@ DEPENDENCIES
   chronic
   coderay
   compass (~> 1)
-  feedjira
+  feedjira (>= 2.1.2)
   font-awesome-middleman
   icalendar (~> 1.5)
   kramdown
@@ -222,7 +211,7 @@ DEPENDENCIES
   middleman-piwik
   middleman-syntax
   mini_portile
-  nokogiri
+  nokogiri (>= 1.10.8)
   oj
   open-uri-cached
   rails-assets-bootstrap-sortable
@@ -235,3 +224,6 @@ DEPENDENCIES
   stringex
   therubyracer
   wdm (~> 0.1.0)
+
+BUNDLED WITH
+   1.17.3
