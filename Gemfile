@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem "middleman", "~> 3.3.10"
+gem "middleman", "~> 4.3.8"
 
 gem 'compass', '~> 1'
 
