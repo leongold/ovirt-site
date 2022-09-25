@@ -3,9 +3,9 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem "middleman", "~> 3.3.10"
+gem "middleman", "~> 4.3.8"
 
-gem 'compass', '~> 1'
+gem 'compass', '~> 1', '>= 1.0.3'
 
 # Live-reloading plugin
 gem "middleman-livereload"
@@ -23,7 +23,7 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 # General plugins
 
 # Blog plugin
-gem "middleman-blog"
+gem "middleman-blog", ">= 4.0.1"
 #gem "middleman-blog-drafts"
 #gem "middleman-blog-authors"
 
@@ -34,7 +34,7 @@ gem "middleman-blog"
 gem "middleman-favicon-maker"
 
 # HTML & XML parsing smarts
-gem "nokogiri"
+gem "nokogiri", ">= 1.13.6"
 gem 'mini_portile'
 
 # Syntax highlighting
@@ -58,7 +58,7 @@ gem 'chronic'
 # Bootstrap
 
 # Bootstrap, as SASS
-gem "bootstrap-sass"
+gem "bootstrap-sass", ">= 3.4.0"
 
 
 #####
@@ -69,13 +69,13 @@ gem "therubyracer"
 gem "less"
 
 # asciidoctor
-gem "asciidoctor"
+gem "asciidoctor", ">= 1.5.8"
 
 gem "coderay"
 gem "stringex"
 
 # Markdown
-gem "kramdown"
+gem "kramdown", ">= 2.3.0"
 
 gem 'open-uri-cached'
 
@@ -95,7 +95,7 @@ gem 'slop', '~> 4'
 gem 'launchy'
 
 # for fetch-dashboard.rb script
-gem 'activesupport'
+gem 'activesupport', '>= 5.2.4.3'
 
 gem 'middleman-piwik'
 
