@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem "middleman", "~> 3.3.10"
+gem "middleman", "~> 4.1.11"
 
 gem 'compass', '~> 1'
 
@@ -23,7 +23,7 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 # General plugins
 
 # Blog plugin
-gem "middleman-blog"
+gem "middleman-blog", ">= 4.0.0"
 #gem "middleman-blog-drafts"
 #gem "middleman-blog-authors"
 
@@ -34,7 +34,7 @@ gem "middleman-blog"
 gem "middleman-favicon-maker"
 
 # HTML & XML parsing smarts
-gem "nokogiri"
+gem "nokogiri", ">= 1.10.5"
 gem 'mini_portile'
 
 # Syntax highlighting
