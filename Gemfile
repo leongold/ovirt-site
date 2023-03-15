@@ -3,7 +3,7 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem "middleman", "~> 3.3.10"
+gem "middleman", "~> 4.4.0"
 
 gem 'compass', '~> 1'
 
@@ -23,7 +23,7 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 # General plugins
 
 # Blog plugin
-gem "middleman-blog"
+gem "middleman-blog", ">= 4.0.0"
 #gem "middleman-blog-drafts"
 #gem "middleman-blog-authors"
 
@@ -95,7 +95,7 @@ gem 'slop', '~> 4'
 gem 'launchy'
 
 # for fetch-dashboard.rb script
-gem 'activesupport'
+gem 'activesupport', '>= 6.1.7.3'
 
 gem 'middleman-piwik'
 
