@@ -3,12 +3,12 @@
 source 'https://rubygems.org'
 source 'https://rails-assets.org'
 
-gem "middleman", "~> 3.3.10"
+gem "middleman", "~> 4.1.11"
 
 gem 'compass', '~> 1'
 
 # Live-reloading plugin
-gem "middleman-livereload"
+gem "middleman-livereload", ">= 3.4.7"
 
 # Cross-templating language block fix for Ruby 1.8
 platforms :mri_18 do
@@ -23,7 +23,7 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 # General plugins
 
 # Blog plugin
-gem "middleman-blog"
+gem "middleman-blog", ">= 4.0.0"
 #gem "middleman-blog-drafts"
 #gem "middleman-blog-authors"
 
@@ -31,14 +31,14 @@ gem "middleman-blog"
 #gem "middleman-thumbnailer", github: "nhemsley/middleman-thumbnailer"
 
 # favicon support (favicon PNG should be 144×144)
-gem "middleman-favicon-maker"
+gem "middleman-favicon-maker", ">= 4.0.3"
 
 # HTML & XML parsing smarts
-gem "nokogiri"
+gem "nokogiri", ">= 1.15.6"
 gem 'mini_portile'
 
 # Syntax highlighting
-gem "middleman-syntax"
+gem "middleman-syntax", ">= 3.2.0"
 
 # For feed.xml.builder
 gem "builder", "~> 3.0"
@@ -82,7 +82,7 @@ gem 'open-uri-cached'
 gem 'font-awesome-middleman'
 
 # RSS/Atom parsing
-gem "feedjira"
+gem "feedjira", ">= 2.1.3"
 
 gem 'rails-assets-bootstrap-sortable'
 
