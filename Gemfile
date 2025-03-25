@@ -34,7 +34,7 @@ gem "middleman-blog"
 gem "middleman-favicon-maker"
 
 # HTML & XML parsing smarts
-gem "nokogiri"
+gem "nokogiri", ">= 1.18.4"
 gem 'mini_portile'
 
 # Syntax highlighting
