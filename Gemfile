@@ -77,7 +77,7 @@ gem "stringex"
 # Markdown
 gem "kramdown"
 
-gem 'open-uri-cached'
+gem 'open-uri-cached', '>= 2.0.0'
 
 gem 'font-awesome-middleman'
 
